@@ -1,0 +1,92 @@
+{
+  "stringTable": {
+    "0": "C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DLEDDriver_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCLDriver_EXPORTS -IC:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "3": "--target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DButtonDriver_EXPORTS -IC:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "4": "--target=armv7-none-linux-androideabi17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DSegment_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "Segment-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target Segment",
+      "buildType": "debug",
+      "toolchain": "2812079122",
+      "abi": "armeabi-v7a",
+      "artifactName": "Segment",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\Segment.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libSegment.so"
+    },
+    "ButtonDriver-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target ButtonDriver",
+      "buildType": "debug",
+      "toolchain": "2812079122",
+      "abi": "armeabi-v7a",
+      "artifactName": "ButtonDriver",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\ButtonDriver.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libButtonDriver.so"
+    },
+    "CLDriver-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target CLDriver",
+      "buildType": "debug",
+      "toolchain": "2812079122",
+      "abi": "armeabi-v7a",
+      "artifactName": "CLDriver",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CLDriver.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libCLDriver.so"
+    },
+    "LEDDriver-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target LEDDriver",
+      "buildType": "debug",
+      "toolchain": "2812079122",
+      "abi": "armeabi-v7a",
+      "artifactName": "LEDDriver",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\LEDDriver.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libLEDDriver.so"
+    }
+  },
+  "toolchains": {
+    "2812079122": {
+      "cCompilerExecutable": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

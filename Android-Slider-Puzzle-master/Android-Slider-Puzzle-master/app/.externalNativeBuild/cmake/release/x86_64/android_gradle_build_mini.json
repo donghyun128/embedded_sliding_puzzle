@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86_64\" --target clean"
+  ],
+  "libraries": {
+    "LEDDriver-Release-x86_64": {
+      "artifactName": "LEDDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86_64\" --target LEDDriver",
+      "abi": "x86_64",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libLEDDriver.so"
+    },
+    "CLDriver-Release-x86_64": {
+      "artifactName": "CLDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86_64\" --target CLDriver",
+      "abi": "x86_64",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libCLDriver.so"
+    },
+    "ButtonDriver-Release-x86_64": {
+      "artifactName": "ButtonDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86_64\" --target ButtonDriver",
+      "abi": "x86_64",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libButtonDriver.so"
+    },
+    "Segment-Release-x86_64": {
+      "artifactName": "Segment",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86_64\" --target Segment",
+      "abi": "x86_64",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libSegment.so"
+    }
+  }
+}

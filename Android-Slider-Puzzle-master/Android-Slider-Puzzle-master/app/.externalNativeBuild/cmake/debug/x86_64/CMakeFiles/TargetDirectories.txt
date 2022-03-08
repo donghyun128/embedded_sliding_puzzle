@@ -1,0 +1,6 @@
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/LEDDriver.dir
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/CLDriver.dir
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/ButtonDriver.dir
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/Segment.dir
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,92 @@
+{
+  "stringTable": {
+    "0": "C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/release/x86",
+    "1": "--target=i686-none-linux-android17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DLEDDriver_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "2": "--target=i686-none-linux-android17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCLDriver_EXPORTS -IC:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "3": "--target=i686-none-linux-android17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DButtonDriver_EXPORTS -IC:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC",
+    "4": "--target=i686-none-linux-android17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DSegment_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86\" --target clean"
+  ],
+  "libraries": {
+    "Segment-Release-x86": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86\" --target Segment",
+      "buildType": "release",
+      "toolchain": "2812079122",
+      "abi": "x86",
+      "artifactName": "Segment",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\Segment.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libSegment.so"
+    },
+    "ButtonDriver-Release-x86": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86\" --target ButtonDriver",
+      "buildType": "release",
+      "toolchain": "2812079122",
+      "abi": "x86",
+      "artifactName": "ButtonDriver",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\ButtonDriver.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libButtonDriver.so"
+    },
+    "CLDriver-Release-x86": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86\" --target CLDriver",
+      "buildType": "release",
+      "toolchain": "2812079122",
+      "abi": "x86",
+      "artifactName": "CLDriver",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CLDriver.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libCLDriver.so"
+    },
+    "LEDDriver-Release-x86": {
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\release\\x86\" --target LEDDriver",
+      "buildType": "release",
+      "toolchain": "2812079122",
+      "abi": "x86",
+      "artifactName": "LEDDriver",
+      "files": [
+        {
+          "src": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\LEDDriver.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libLEDDriver.so"
+    }
+  },
+  "toolchains": {
+    "2812079122": {
+      "cCompilerExecutable": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

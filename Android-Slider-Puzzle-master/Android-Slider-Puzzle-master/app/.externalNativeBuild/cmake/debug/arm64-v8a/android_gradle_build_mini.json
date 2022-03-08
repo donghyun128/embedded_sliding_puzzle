@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a\" --target clean"
+  ],
+  "libraries": {
+    "Segment-Debug-arm64-v8a": {
+      "artifactName": "Segment",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a\" --target Segment",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libSegment.so"
+    },
+    "LEDDriver-Debug-arm64-v8a": {
+      "artifactName": "LEDDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a\" --target LEDDriver",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libLEDDriver.so"
+    },
+    "CLDriver-Debug-arm64-v8a": {
+      "artifactName": "CLDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a\" --target CLDriver",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libCLDriver.so"
+    },
+    "ButtonDriver-Debug-arm64-v8a": {
+      "artifactName": "ButtonDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a\" --target ButtonDriver",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libButtonDriver.so"
+    }
+  }
+}

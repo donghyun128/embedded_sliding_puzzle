@@ -1,0 +1,8 @@
+Executable : C:\Users\parlab\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+--build
+C:\Users\parlab\Desktop\Android-Slider-Puzzle-master\app\.externalNativeBuild\cmake\debug\armeabi-v7a
+--target
+CLDriver
+jvmArgs : 
+

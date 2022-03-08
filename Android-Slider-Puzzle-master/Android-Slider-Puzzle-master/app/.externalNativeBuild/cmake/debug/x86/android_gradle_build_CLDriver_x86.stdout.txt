@@ -1,0 +1,31 @@
+[1/2] Building C object CMakeFiles/CLDriver.dir/CLDriver.c.o
+[2/2] Linking C shared library C:\Users\parlab\Desktop\Android-Slider-Puzzle-master\app\build\intermediates\cmake\debug\obj\x86\libCLDriver.so
+FAILED: C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/build/intermediates/cmake/debug/obj/x86/libCLDriver.so 
+cmd.exe /C "cd . && C:\Users\parlab\AppData\Local\Android\Sdk\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libCLDriver.so -o C:\Users\parlab\Desktop\Android-Slider-Puzzle-master\app\build\intermediates\cmake\debug\obj\x86\libCLDriver.so CMakeFiles/CLDriver.dir/CLDriver.c.o -LC:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm -lGLES_mali -llog -ljnigraphics -latomic -lm && cd ."
+C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld: warning: skipping incompatible C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/libGLES_mali.so while searching for GLES_mali
+C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin\ld: error: cannot find -lGLES_mali
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:95: error: undefined reference to 'clGetPlatformIDs'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:96: error: undefined reference to 'clGetDeviceIDs'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:99: error: undefined reference to 'clCreateContext'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:101: error: undefined reference to 'clCreateCommandQueue'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:104: error: undefined reference to 'clCreateProgramWithSource'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:107: error: undefined reference to 'clBuildProgram'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:110: error: undefined reference to 'clCreateKernel'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:112: error: undefined reference to 'clCreateBuffer'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:113: error: undefined reference to 'clCreateBuffer'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:116: error: undefined reference to 'clEnqueueWriteBuffer'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:118: error: undefined reference to 'clSetKernelArg'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:119: error: undefined reference to 'clSetKernelArg'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:120: error: undefined reference to 'clSetKernelArg'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:121: error: undefined reference to 'clSetKernelArg'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:124: error: undefined reference to 'clEnqueueNDRangeKernel'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:127: error: undefined reference to 'clFinish'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:130: error: undefined reference to 'clEnqueueReadBuffer'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:132: error: undefined reference to 'clReleaseMemObject'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:133: error: undefined reference to 'clReleaseMemObject'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:134: error: undefined reference to 'clReleaseProgram'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:135: error: undefined reference to 'clReleaseKernel'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:136: error: undefined reference to 'clReleaseCommandQueue'
+C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/CLDriver.c:137: error: undefined reference to 'clReleaseContext'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

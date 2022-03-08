@@ -1,0 +1,25 @@
+[
+{
+  "directory": "C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/release/x86_64",
+  "command": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DLEDDriver_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\LEDDriver.dir\\LEDDriver.c.o   -c C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\LEDDriver.c",
+  "file": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\LEDDriver.c"
+},
+
+{
+  "directory": "C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/release/x86_64",
+  "command": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCLDriver_EXPORTS -IC:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\CLDriver.dir\\CLDriver.c.o   -c C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CLDriver.c",
+  "file": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CLDriver.c"
+},
+
+{
+  "directory": "C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/release/x86_64",
+  "command": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DButtonDriver_EXPORTS -IC:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/src/main/jni/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ButtonDriver.dir\\ButtonDriver.c.o   -c C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\ButtonDriver.c",
+  "file": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\ButtonDriver.c"
+},
+
+{
+  "directory": "C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/.externalNativeBuild/cmake/release/x86_64",
+  "command": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/parlab/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DSegment_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\Segment.dir\\Segment.c.o   -c C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\Segment.c",
+  "file": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\Segment.c"
+}
+]

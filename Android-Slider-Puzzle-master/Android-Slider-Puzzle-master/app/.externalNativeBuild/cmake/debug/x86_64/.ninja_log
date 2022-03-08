@@ -1,0 +1,13 @@
+# ninja log v5
+1	131	661277393	CMakeFiles/ButtonDriver.dir/ButtonDriver.c.o	6f81cac170dbc588
+133	219	661277393	C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/build/intermediates/cmake/debug/obj/x86_64/libButtonDriver.so	d940586023e7515d
+0	126	661277394	CMakeFiles/Segment.dir/Segment.c.o	4f2a5c7e64c8231a
+127	212	661277394	C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/build/intermediates/cmake/debug/obj/x86_64/libSegment.so	69add4f6b27255e3
+0	143	661277394	CMakeFiles/CLDriver.dir/CLDriver.c.o	8ca64cc8954fafe9
+2	154	661286306	CMakeFiles/CLDriver.dir/CLDriver.c.o	8ca64cc8954fafe9
+1	170	661338122	CMakeFiles/ButtonDriver.dir/ButtonDriver.c.o	6f81cac170dbc588
+170	268	661338122	C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/build/intermediates/cmake/debug/obj/x86_64/libButtonDriver.so	d940586023e7515d
+2	129	661338122	CMakeFiles/Segment.dir/Segment.c.o	4f2a5c7e64c8231a
+130	232	661338122	C:/Users/parlab/Desktop/Android-Slider-Puzzle-master/app/build/intermediates/cmake/debug/obj/x86_64/libSegment.so	69add4f6b27255e3
+2	140	661338123	CMakeFiles/CLDriver.dir/CLDriver.c.o	8ca64cc8954fafe9
+2	154	661345392	CMakeFiles/CLDriver.dir/CLDriver.c.o	8ca64cc8954fafe9

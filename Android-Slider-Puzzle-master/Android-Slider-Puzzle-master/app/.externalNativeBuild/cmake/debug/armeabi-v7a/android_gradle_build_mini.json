@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "Segment-Debug-armeabi-v7a": {
+      "artifactName": "Segment",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target Segment",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libSegment.so"
+    },
+    "ButtonDriver-Debug-armeabi-v7a": {
+      "artifactName": "ButtonDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target ButtonDriver",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libButtonDriver.so"
+    },
+    "CLDriver-Debug-armeabi-v7a": {
+      "artifactName": "CLDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target CLDriver",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libCLDriver.so"
+    },
+    "LEDDriver-Debug-armeabi-v7a": {
+      "artifactName": "LEDDriver",
+      "buildCommand": "C:\\Users\\parlab\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build \"C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a\" --target LEDDriver",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\parlab\\Desktop\\Android-Slider-Puzzle-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libLEDDriver.so"
+    }
+  }
+}
